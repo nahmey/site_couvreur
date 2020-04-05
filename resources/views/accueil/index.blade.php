@@ -95,9 +95,9 @@
 				<div class="col-lg-12 text-center align-middle">
 					<h2 class="text-dark mt-0">Couverture</h2>
 					<hr class="divider my-4">
-					<div class="d-flex">
-						<img class="img-fluid float-left col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/couverture2.jpg')}}" alt="">
-						<div style="margin: auto;">
+					<div class="row">
+						<img class="img-fluid col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/couverture2.jpg')}}" alt="">
+						<div style="margin: auto;" class="col-md-8 col-xs-12">
 							<p class="text-dark-50">
 								"F.J. Rénovation" est à votre service, particulier et professionnel, pour tout travaux de couvertures en tuiles mécaniques, tuiles plates, ainsi que d’ardoise.
 							</p>
@@ -151,9 +151,9 @@
 				<div class="col-lg-12 text-center align-middle">
 					<h2 class="mt-0 text-white">Fenêtre de toit</h2>
 					<hr class="divider my-4">
-					<div class="d-flex">
+					<div class="row">
 						<img class="img-fluid float-left col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/fenetre2.jpg')}}" alt="">
-						<div style="margin: auto;" class="text-right">
+						<div style="margin: auto;" class="text-right col-md-8 col-xs-12">
 							<p class="text-white-50">
 								Je vous propose la pose de velux sur toiture neuve, à partir de la création de l’ouverture à la pose du velux.
 							</p>
@@ -175,9 +175,9 @@
 				<div class="col-lg-12 text-center align-middle">
 					<h2 class="text-dark mt-0">Étanchéité</h2>
 					<hr class="divider my-4">
-					<div class="d-flex">
+					<div class="row">
 						<img class="img-fluid float-right col-md-6 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/etanche2.jpg')}}" alt="">
-						<div style="margin: auto">
+						<div style="margin: auto" class="col-md-6 col-xs-12">
 							<p class="text-dark-50 mt-4">
 								Pour vos surfaces planes, pensez aux différents systèmes d’étanchéités.
 							</p>
