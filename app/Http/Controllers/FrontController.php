@@ -42,7 +42,7 @@ class FrontController extends Controller
 			'img/couverture/couverture_3.jpg',
 			'img/couverture/couverture_4.jpg',
 			'img/couverture/couverture_5.jpg',
-			'img/couverture/couverture_6.jpg',
+			'img/couverture/couverture_6.JPG',
     	];
 
     	for ($i=0; $i < count($photos); $i++) { 
