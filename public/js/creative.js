@@ -59,7 +59,14 @@
 
 
 $(document).ready(function(){
-  $('body').on('click', '#button_realisation_zinguerie', function(){
-    $('#modal_zinguerie_image').modal('show')
-  })
+    // $('body').on('click', '#button_realisation_zinguerie', function(){
+    //   $('#modal_zinguerie_image').modal('show')
+    // })
+    $('body').on('click', '.button_photo', function(){
+        var url = $(this).data('url');
+        $('#modal_area').empty();
+        $('#modal_area').load(url, function(){
+            $('#modal_photos').modal('show');
+        })
+    })
 })

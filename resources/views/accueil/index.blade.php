@@ -96,13 +96,16 @@
 					<h2 class="text-dark mt-0">Couverture</h2>
 					<hr class="divider my-4">
 					<div class="row">
-						<img class="img-fluid col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/couverture2.jpg')}}" alt="">
+						<img class="img-fluid col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/couverture2.jpg')}}" alt="Couverture">
 						<div style="margin: auto;" class="col-md-8 col-xs-12">
 							<p class="text-dark-50">
 								"F.J. Rénovation" est à votre service, particulier et professionnel, pour tout travaux de couvertures en tuiles mécaniques, tuiles plates, ainsi que d’ardoise.
 							</p>
 							<p class="text-dark-50">
 								Je suis également à votre service pour toute réparation de toiture, remplacement de vos tuiles cassées ou emportées par le vent.
+							</p>
+							<p>
+								<button class="btn btn-primary button_photo" data-url="{{route('couverture_photos')}}">Voir mes réalisations</button> 
 							</p>
 						</div>
 					</div>
@@ -118,7 +121,7 @@
 				<div class="col-lg-12 text-center">
 					<h2 class="text-white mt-0">Zinguerie</h2>
 					<hr class="divider light my-4">
-					<img class="img-fluid float-right col-md-7 col-xs-12 mb-4" src="{{asset('img/bandeau_2.jpg')}}" alt="">
+					<img class="img-fluid float-right col-md-7 col-xs-12 mb-4" src="{{asset('img/bandeau_2.jpg')}}" alt="Zinguerie">
 					<p class="text-white-50 mb-4 text-justify">
 						J'étudie et vous propose une solution personnalisée.
 					</p>
@@ -137,7 +140,7 @@
 
 					</p>
 					<p>
-						<button class="btn btn-primary" id="button_realisation_zinguerie">Voir mes réalisations</button> 
+						<button class="btn btn-primary button_photo" data-url="{{route('zinguerie_photos')}}">Voir mes réalisations</button> 
 					</p>
 				</div>
 			</div>
@@ -152,7 +155,7 @@
 					<h2 class="mt-0 text-white">Fenêtre de toit</h2>
 					<hr class="divider my-4">
 					<div class="row">
-						<img class="img-fluid float-left col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/fenetre2.jpg')}}" alt="">
+						<img class="img-fluid float-left col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/fenetre2.jpg')}}" alt="Fenêtre de toit">
 						<div style="margin: auto;" class="text-right col-md-8 col-xs-12">
 							<p class="text-white-50">
 								Je vous propose la pose de velux sur toiture neuve, à partir de la création de l’ouverture à la pose du velux.
@@ -176,7 +179,7 @@
 					<h2 class="text-dark mt-0">Étanchéité</h2>
 					<hr class="divider my-4">
 					<div class="row">
-						<img class="img-fluid float-right col-md-6 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/etanche2.jpg')}}" alt="">
+						<img class="img-fluid float-right col-md-6 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/etanche2.jpg')}}" alt="Étanchéité">
 						<div style="margin: auto" class="col-md-6 col-xs-12">
 							<p class="text-dark-50 mt-4">
 								Pour vos surfaces planes, pensez aux différents systèmes d’étanchéités.
@@ -236,67 +239,7 @@
 
 
 	<!-- Modal -->
-	<div class="modal fade" tabindex="-1" role="dialog" id="modal_zinguerie_image">
-		<div class="modal-dialog modal-lg" role="document">
-			<div class="modal-content">
-				<div class="display_errors"></div>
-				<div class="modal-header">
-					<h5 class="modal-title">Zinguerie</h5>
-					<button type="button" class="close fermer_modal" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-						<ol class="carousel-indicators">
-							<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-							<li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-						</ol>
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img class="d-block w-100" src="img/bandeau.jpg" alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/zinguerie/zinguerie_2.jpg" alt="Second slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/zinguerie/zinguerie_3.jpg" alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/zinguerie/zinguerie_4.jpg" alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/zinguerie/zinguerie_5.jpg" alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/zinguerie/zinguerie_6.jpg" alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/zinguerie/zinguerie_7.jpg" alt="Third slide">
-							</div>
-							<div class="carousel-item">
-								<img class="d-block w-100" src="img/zinguerie/zinguerie_1.jpg" alt="First slide">
-							</div>
-						</div>
-						<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<div id="modal_area"></div>
 
 	<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
 	<script src="{{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>

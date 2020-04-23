@@ -19,3 +19,5 @@ Route::get('/', function () {
 
 
 Route::get('/', 'FrontController@accueil')->name('accueil');
+Route::get('zinguerie_photos', 'FrontController@zingueriePhotos')->name('zinguerie_photos');
+Route::get('couverture_photos', 'FrontController@couverturePhotos')->name('couverture_photos');
