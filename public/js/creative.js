@@ -69,4 +69,12 @@ $(document).ready(function(){
             $('#modal_photos').modal('show');
         })
     })
+
+
+    $('body').on('click', '#bouton_mentions_legales', function(e){
+      e.preventDefault();
+      $('#modal_mentions_legales').modal('show');
+    })
+
+
 })

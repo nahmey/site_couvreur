@@ -253,11 +253,15 @@
 	<footer class="bg-light py-5">
 		<div class="container">
 			<div class="small text-center text-muted">Copyright &copy; 2020 - FJ Rénovation</div>
+			<div class="small text-center text-muted mt-4">
+				<a href="" id="bouton_mentions_legales">Mentions Légales</a>
+			</div>
 		</div>
 	</footer>
 
 
 	<!-- Modal -->
+	@include('mentions_legales')
 	<div id="modal_area"></div>
 
 	<script src="{{asset('vendor/jquery/jquery.min.js')}}"></script>
