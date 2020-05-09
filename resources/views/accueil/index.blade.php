@@ -7,7 +7,7 @@
 	<meta name="description" content="L’entreprise F.J. Rénovation situé à Herrlisheim, entre Haguenau et Strasbourg, est à votre disposition pour tous vos travaux de couverture, zinguerie, étanchéité et pose de velux.">
 	<meta name="author" content="Kennel Julien">
 	<meta property="og:title" content="L’entreprise F.J. Rénovation situé à Herrlisheim, entre Haguenau et Strasbourg, est à votre disposition pour tous vos travaux de couverture, zinguerie, étanchéité et pose de velux.">
-	<meta property="og:image" content="{{asset('img/pignon_arbre.jpg')}}">
+	<meta property="og:image" content="{{asset('img/zinguerie/pignon_1.jpg')}}">
 
 	<title>F.J. Rénovation</title>
 
@@ -16,6 +16,17 @@
 	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link href="{{asset('vendor/magnific-popup/magnific-popup.css')}}" rel="stylesheet">
 	<link href="{{asset('css/creative-v'.config('app.version').'.css')}}" rel="stylesheet">
+
+
+	<style>
+		/*.test img{
+			width: auto;
+  height: 500px;
+  max-height: 500px;
+		}*/
+	</style>
+
+
 </head>
 
 <body id="page-top">
@@ -76,13 +87,13 @@
 				<div class="col-lg-8 text-center">
 					<h2 class="text-white mt-0">Qui suis-je ?</h2>
 					<hr class="divider light my-4">
-					<p class="text-white-50">
+					<p class="text-white-75">
 						Bienvenue sur le site de F.J. Rénovation, situé à Herrlisheim, entre Haguenau et Strasbourg.
 					</p>
-					<p class="text-white-50">
+					<p class="text-white-75">
 						L’entreprise F.J. Rénovation est à votre disposition pour tous vos travaux de couverture, zinguerie, étanchéité et pose de velux.
 					</p>
-					<p class="text-white-50">
+					<p class="text-white-75">
 						Un seul interlocuteur à votre écoute pour votre suivi de chantier.
 					</p>
 				</div>
@@ -100,13 +111,16 @@
 					<div class="row">
 						<img class="img-fluid col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/couverture2.jpg')}}" alt="Couverture">
 						<div style="margin: auto;" class="col-md-8 col-xs-12">
+							<p class="d-block d-sm-none">
+								<button class="btn btn-primary button_photo" data-url="{{route('couverture_photos')}}">Voir mes réalisations</button> 
+							</p>
 							<p class="text-dark-50">
 								"F.J. Rénovation" est à votre service, particulier et professionnel, pour tout travaux de couvertures en tuiles mécaniques, tuiles plates, ainsi qu'en ardoise.
 							</p>
 							<p class="text-dark-50">
 								Je suis également à votre service pour toute réparation de toiture, remplacement de vos tuiles cassées ou emportées par le vent.
 							</p>
-							<p>
+							<p class="d-none d-sm-block">
 								<button class="btn btn-primary button_photo" data-url="{{route('couverture_photos')}}">Voir mes réalisations</button> 
 							</p>
 						</div>
@@ -124,6 +138,9 @@
 					<h2 class="text-white mt-0">Zinguerie</h2>
 					<hr class="divider light my-4">
 					<img class="img-fluid float-right col-md-7 col-xs-12 mb-4" src="{{asset('img/bandeau_2.jpg')}}" alt="Zinguerie">
+					<p class="d-block d-sm-none">
+						<button class="btn btn-primary button_photo" data-url="{{route('zinguerie_photos')}}">Voir mes réalisations</button> 
+					</p>
 					<p class="text-white-50 mb-4 text-justify">
 						J'étudie et vous propose une solution personnalisée.
 					</p>
@@ -141,7 +158,7 @@
 					</p>
 
 					</p>
-					<p>
+					<p class="d-none d-sm-block">
 						<button class="btn btn-primary button_photo" data-url="{{route('zinguerie_photos')}}">Voir mes réalisations</button> 
 					</p>
 				</div>

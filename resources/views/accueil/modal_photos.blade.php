@@ -17,7 +17,7 @@
 					</ol>
 					<div class="carousel-inner">
 						@foreach($photos as $photo)
-							<div class="carousel-item @if($loop->first) active @endif">
+							<div class="carousel-item @if($loop->first) active @endif test">
 								<img class="d-block w-100" src="{{asset($photo)}}" alt="{{$titre}}">
 							</div>
 						@endforeach

@@ -15,7 +15,13 @@ class FrontController extends Controller
     	$titre = 'Zinguerie';
     	$nombre_photos = [];
     	$photos = [
-    		'img/bandeau.jpg',
+    		'img/zinguerie/zinguerie.jpg',
+            'img/zinguerie/pignon_arbre_3.jpg',
+            'img/zinguerie/pignon_arbre_2.jpg',
+            'img/zinguerie/pignon_ar_3.jpg',
+            'img/zinguerie/pignon_ar_2.jpg',
+            'img/zinguerie/pignon_ar.jpg',
+            'img/zinguerie/pignon_1.jpg',
     		'img/zinguerie/zinguerie_2.jpg',
 			'img/zinguerie/zinguerie_3.jpg',
 			'img/zinguerie/zinguerie_4.jpg',
