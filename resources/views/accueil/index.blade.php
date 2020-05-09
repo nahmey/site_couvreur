@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="L’entreprise F.J. Rénovation situé à Herrlisheim, entre Haguenau et Strasbourg, est à votre disposition pour tous vos travaux de couverture, zinguerie, étanchéité et pose de velux.">
 	<meta name="author" content="Kennel Julien">
+	<meta property="og:title" content="L’entreprise F.J. Rénovation situé à Herrlisheim, entre Haguenau et Strasbourg, est à votre disposition pour tous vos travaux de couverture, zinguerie, étanchéité et pose de velux.">
+	<meta property="og:image" content="{{asset('img/pignon_arbre.jpg')}}">
 
 	<title>F.J. Rénovation</title>
 
