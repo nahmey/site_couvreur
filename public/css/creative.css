@@ -6054,8 +6054,8 @@ a.close.disabled {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 70px;
+  height: 70px;
   background: no-repeat 50% / 100% 100%;
 }
 
@@ -9672,7 +9672,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bandeau_2.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/pignon_arbre.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

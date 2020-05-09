@@ -7,7 +7,7 @@
 	<meta name="description" content="L’entreprise F.J. Rénovation situé à Herrlisheim, entre Haguenau et Strasbourg, est à votre disposition pour tous vos travaux de couverture, zinguerie, étanchéité et pose de velux.">
 	<meta name="author" content="Kennel Julien">
 
-	<title>F.J Rénovation</title>
+	<title>F.J. Rénovation</title>
 
 	<link href="{{asset('vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
@@ -21,7 +21,7 @@
 	<!-- Navigation -->
 	<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
 		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">F.J RENOVATION</a>
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">F.J. RENOVATION</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -56,7 +56,7 @@
 		<div class="container h-100">
 			<div class="row h-100 align-items-center justify-content-center text-center">
 				<div class="col-lg-10 align-self-end">
-					<h1 class="text-uppercase text-white font-weight-bold">F.J RENOVATION</h1>
+					<h1 class="text-uppercase text-white font-weight-bold">F.J. RENOVATION</h1>
 					<hr class="divider my-4">
 				</div>
 				<div class="col-lg-8 align-self-baseline">
@@ -99,7 +99,7 @@
 						<img class="img-fluid col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/couverture2.jpg')}}" alt="Couverture">
 						<div style="margin: auto;" class="col-md-8 col-xs-12">
 							<p class="text-dark-50">
-								"F.J. Rénovation" est à votre service, particulier et professionnel, pour tout travaux de couvertures en tuiles mécaniques, tuiles plates, ainsi que d’ardoise.
+								"F.J. Rénovation" est à votre service, particulier et professionnel, pour tout travaux de couvertures en tuiles mécaniques, tuiles plates, ainsi qu'en ardoise.
 							</p>
 							<p class="text-dark-50">
 								Je suis également à votre service pour toute réparation de toiture, remplacement de vos tuiles cassées ou emportées par le vent.
@@ -132,10 +132,10 @@
 						La pose de boite à eau, col de cygne, tuyaux de descente fait également partie de mes compétences.
 					</p>
 					<p class="text-white-50 mb-4 text-justify">
-						À votre disposition pour vos habillages de planches de rive, habillage de chéneaux, habillage de cheminées et également la pose de couvertines.
+						À votre disposition pour vos habillages de planches de rive, habillages de chéneaux, habillages de cheminées et également la pose de couvertines.
 					</p>
 					<p class="text-white-50 mb-4">
-						Tout ces travaux de zinguerie sont possibles en divers matériaux : zinc naturel, zinc pré-laqué, zinc pré-patinée, cuivre, alu, tôle galvanisée laquée.
+						Tous ces travaux de zinguerie sont possibles en divers matériaux : zinc naturel, zinc pré-laqué, zinc pré-patiné, cuivre, alu, tôle galvanisée laquée.
 					</p>
 
 					</p>
@@ -157,10 +157,10 @@
 					<div class="row">
 						<img class="img-fluid float-left col-md-4 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/fenetre2.jpg')}}" alt="Fenêtre de toit">
 						<div style="margin: auto;" class="text-right col-md-8 col-xs-12">
-							<p class="text-white-50">
+							<p class="text-white-75">
 								Je vous propose la pose de velux sur toiture neuve, à partir de la création de l’ouverture à la pose du velux.
 							</p>
-							<p class="text-white-50">
+							<p class="text-white-75">
 								Ceci est également possible en rénovation.
 							</p>
 						</div>
@@ -182,10 +182,10 @@
 						<img class="img-fluid float-right col-md-6 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/etanche2.jpg')}}" alt="Étanchéité">
 						<div style="margin: auto" class="col-md-6 col-xs-12">
 							<p class="text-dark-50 mt-4">
-								Pour vos surfaces planes, pensez aux différents systèmes d’étanchéités.
+								Pour vos surfaces planes, pensez aux différents systèmes d’étanchéité.
 							</p>
 							<p class="text-dark-50 mt-4">
-								Je réalise des toitures chaudes ou froides en bitume ainsi qu’en EPDM (Membrane en caoutchouc souple qui permet d’étanchéifier votre toitures plates, végétales, ou légèrement inclinées.)
+								Je réalise des toitures chaudes ou froides en bitume ainsi qu’en EPDM (Membrane en caoutchouc souple qui permet d’étanchéifier vos toitures plates, végétales, ou légèrement inclinées.)
 							</p>
 						</div>
 					</div>
