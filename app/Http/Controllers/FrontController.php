@@ -10,6 +10,8 @@ class FrontController extends Controller
     	return view('accueil.index');
     }
 
+    // commentaire pour test
+
 
     public function zingueriePhotos(){
     	$titre = 'Zinguerie';
