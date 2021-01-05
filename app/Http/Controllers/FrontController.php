@@ -10,8 +10,6 @@ class FrontController extends Controller
     	return view('accueil.index');
     }
 
-    // commentaire pour test
-
 
     public function zingueriePhotos(){
     	$titre = 'Zinguerie';
@@ -36,8 +34,8 @@ class FrontController extends Controller
             'img/zinguerie/chantier_jung_3.jpg',
             'img/zinguerie/chantier_jung_4.jpg',
             'img/zinguerie/cuivre_1.jpg',
-            'img/zinguerie/cuivre_2.jpg',
-            'img/zinguerie/cuivre_3.jpg',
+            'img/zinguerie/cuivre_22.jpg',
+            'img/zinguerie/cuivre_33.jpg',
             'img/zinguerie/chantier_planche_de_rive_1.jpg',
             'img/zinguerie/decrochement_gouttieres.jpg',
             'img/zinguerie/gouttieres.jpg',
