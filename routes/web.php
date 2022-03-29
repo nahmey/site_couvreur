@@ -21,3 +21,5 @@ Route::get('/', function () {
 Route::get('/', 'FrontController@accueil')->name('accueil');
 Route::get('zinguerie_photos', 'FrontController@zingueriePhotos')->name('zinguerie_photos');
 Route::get('couverture_photos', 'FrontController@couverturePhotos')->name('couverture_photos');
+Route::get('fenetre_toit_photos', 'FrontController@fenetreToitPhotos')->name('fenetre_toit_photos');
+Route::get('etancheite_photos', 'FrontController@etancheitePhotos')->name('etancheite_photos');

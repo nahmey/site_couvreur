@@ -182,6 +182,10 @@
 							<p class="text-white-75">
 								Ceci est également possible en rénovation.
 							</p>
+
+							<p class="d-sm-block">
+								<button class="btn btn-light button_photo" data-url="{{route('fenetre_toit_photos')}}">Voir mes réalisations</button> 
+							</p>
 						</div>
 					</div>
 				</div>
@@ -198,13 +202,16 @@
 					<h2 class="text-dark mt-0">Étanchéité</h2>
 					<hr class="divider my-4">
 					<div class="row">
-						<img class="img-fluid float-right col-md-6 col-xs-12 mb-4" src="{{asset('img/portfolio/thumbnails/etanche2.jpg')}}" alt="Étanchéité">
+						<img class="img-fluid float-right col-md-6 col-xs-12 mb-4" src="{{asset('img/etancheite/e25.jpeg')}}" alt="Étanchéité">
 						<div style="margin: auto" class="col-md-6 col-xs-12">
 							<p class="text-dark-50 mt-4">
 								Pour vos surfaces planes, pensez aux différents systèmes d’étanchéité.
 							</p>
 							<p class="text-dark-50 mt-4">
 								Je réalise des toitures chaudes ou froides en bitume ainsi qu’en EPDM (Membrane en caoutchouc souple qui permet d’étanchéifier vos toitures plates, végétales, ou légèrement inclinées.)
+							</p>
+							<p class="d-sm-block">
+								<button class="btn btn-primary button_photo" data-url="{{route('etancheite_photos')}}">Voir mes réalisations</button> 
 							</p>
 						</div>
 					</div>

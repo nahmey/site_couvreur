@@ -18,7 +18,8 @@
 					<div class="carousel-inner">
 						@foreach($photos as $photo)
 							<div class="carousel-item @if($loop->first) active @endif test">
-								<img class="d-block w-100" src="{{asset($photo)}}" alt="{{$titre}}">
+								<!-- <img class="d-block w-100" src="{{asset($photo)}}" alt="{{$titre}}"> -->
+								<div style="background:linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),center / cover url('{{$photo}}'); height: 80vh;"></div>
 							</div>
 						@endforeach
 					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

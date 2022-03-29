@@ -6,12 +6,14 @@ use Illuminate\Http\Request;
 
 class FrontController extends Controller
 {
-    public function accueil(){
+    public function accueil()
+    {
     	return view('accueil.index');
     }
 
 
-    public function zingueriePhotos(){
+    public function zingueriePhotos()
+    {
     	$titre = 'Zinguerie';
     	$nombre_photos = [];
     	$photos = [
@@ -54,7 +56,8 @@ class FrontController extends Controller
     }
 
 
-    public function couverturePhotos(){
+    public function couverturePhotos()
+    {
     	$titre = 'Couverture';
     	$nombre_photos = [];
     	$photos = [
@@ -83,4 +86,65 @@ class FrontController extends Controller
 
     	return view('accueil.modal_photos', compact('photos', 'titre', 'nombre_photos'));
     }
+
+
+    public function fenetreToitPhotos()
+    {
+        $titre = 'Fenêtre de toit';
+        $nombre_photos = [];
+        $photos = [
+            'img/fenetre_toit/ft_1.jpeg',
+            'img/fenetre_toit/ft_2.jpeg',
+            'img/fenetre_toit/ft_3.jpeg',
+            'img/fenetre_toit/ft_4.jpeg',
+            'img/fenetre_toit/ft_5.jpeg',
+        ];
+
+        for ($i=0; $i < count($photos); $i++) { 
+            $nombre_photos[] = $i;
+        }
+
+        return view('accueil.modal_photos', compact('photos', 'titre', 'nombre_photos'));
+    }
+
+
+    public function etancheitePhotos()
+    {
+        $titre = 'Étanchéité';
+        $nombre_photos = [];
+        $photos = [
+            'img/etancheite/e1.jpg',
+            'img/etancheite/e2.jpg',
+            'img/etancheite/e3.jpg',
+            'img/etancheite/e4.jpg',
+            'img/etancheite/e5.jpg',
+            'img/etancheite/e6.jpg',
+            'img/etancheite/e7.jpg',
+            'img/etancheite/e8.jpg',
+            'img/etancheite/e9.jpg',
+            'img/etancheite/e10.jpg',
+            'img/etancheite/e11.jpg',
+            'img/etancheite/e12.jpeg',
+            'img/etancheite/e13.jpeg',
+            'img/etancheite/e14.jpeg',
+            'img/etancheite/e15.jpeg',
+            'img/etancheite/e16.jpeg',
+            'img/etancheite/e17.jpeg',
+            'img/etancheite/e18.jpeg',
+            'img/etancheite/e19.jpeg',
+            'img/etancheite/e20.jpeg',
+            'img/etancheite/e21.jpeg',
+            'img/etancheite/e22.jpeg',
+            'img/etancheite/e23.jpeg',
+            'img/etancheite/e24.jpeg',
+            'img/etancheite/e25.jpeg',
+        ];
+
+        for ($i=0; $i < count($photos); $i++) { 
+            $nombre_photos[] = $i;
+        }
+
+        return view('accueil.modal_photos', compact('photos', 'titre', 'nombre_photos'));
+    }
+
 }
